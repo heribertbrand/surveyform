@@ -1,14 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/styles/styles.css">
-</head>
-<body>
-    <div class="form-container">
-        <h1>Hello World</h1>
-    </div>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="assets/styles/styles.css">
+      <title>Survey Form</title>
+   </head>
+    <body>
+       <div class="main-container">
+           <div class="container1">
+              <h1 id="title">freeCodeCamp Survey Form</h1>
+              <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+           </div>
+               <form class="container">
+
+                   <div class="mainCred">
+                       <div class="credentials">
+                          <p>Name</p>
+
+                          <input type="text" placeholder="Enter your name">
+                       </div>
+
+                       <div class="credentials2">
+                          <p>Email</p>
+
+                          <input type="email" placeholder="Enter your Email">
+                       </div>
+        
+                       <div class="credentials3">
+                          <p>Age (optional)</p>
+
+                          <input type="number" min="12" max="120" placeholder="Age">
+                       </div>
+           
+                       <div class="credentials4">
+                          <p>Which option best describes your current role</p>
+
+                           <select class="drop" placeholder="text">
+                             <option>Select current role</option>
+                             <option>Student</option>
+                             <option>Full Time Job</option>
+                             <option>Full Time Learner</option>
+                             <option>Prefer not to say</option>
+                             <option>Other</option>
+                           </select>
+                       </div>
+                   </div>
+            
+                   <div class="radio">
+                      <p>Would you recommend freeCodeCamp to a friend?</p>
+                      <div class="rad">
+                        <input type="radio" name="definitely">
+                        <p>Definitely</p>
+                    </div>
+                      <div class="rad">
+                        <input type="radio" name="may-be">
+                        <p>Maybe</p>
+                    </div>
+                      <div class="rad">
+                        <input type="radio" name="not-sure">
+                        <p>Not sure</p>
+                    </div>
+                   </div>
+
+                   <div class="drop2">
+                      <p>What is your favorite feature of freeCodeCamp?</p>
+        
+                       <select class="dropdown" placeholder="text">Select an option
+                         <option>Select an option</option>
+                         <option>Challenges</option>
+                         <option>Projects</option>
+                         <option>Community</option>
+                         <option>Open Source</option>
+                       </select>
+                   </div>
+                         
+                   <div class="checkbox">
+                         <p>What would you like to see improved? (check all that apply)</p>
+                            <div class="list">
+                                <input id="front-end-projects" type="checkbox">
+                                <p>Front-end Projects</p>
+                             </div>
+                             <div class="list">
+                                <input id="back-end-projects" type="checkbox">
+                                <p>Back-end Projects</p>
+                             </div>
+                             <div class="list">
+                                <input id="data-visualisation" type="checkbox">
+                                <p>Data Visualisation</p>
+                             </div>
+                             <div class="list">
+                                <input id="challenges" type="checkbox">
+                                <p>Challenges</p>
+                             </div>
+                             <div class="list">
+                                <input id="open-source-community" type="checkbox">
+                                <p>Open Source Community</p>
+                             </div>
+                             <div class="list">
+                                <input id="gitter-help-rooms" type="checkbox">
+                                <p>Gitter help rooms</p>
+                             </div>
+                             <div class="list">
+                                <input id="videos" type="checkbox">
+                                <p>Videos</p>
+                             </div>
+                             <div class="list">
+                                <input id="city-meetups" type="checkbox">
+                                <p>City Meetups</p>
+                             </div>
+                             <div class="list">
+                                <input id="wiki" type="checkbox">
+                                <p>Wiki</p>
+                             </div>
+                             <div class="list">
+                                <input id="forum" type="checkbox">
+                                <p>Forum</p>
+                             </div>
+                             <div class="list">
+                                <input id="additional-courses" type="checkbox">
+                                <p>Additional Courses</p>
+                             </div>     
+                         
+                   </div>
+        
+                   <div class="comment">
+                     <p>Any comments or suggestions?</p>
+                       <textarea class="textarea" placeholder="Enter your comment here..."></textarea>
+                   </div>
+
+                   <div>
+                     <button id="submit" class="butt">Submit</button>
+                   </div>
+               </form>   
+           </div>
+       </div>    
+   </body>
 </html>
