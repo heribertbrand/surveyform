@@ -7,7 +7,7 @@
 body {
   margin: auto;
   padding: 0;
-  background-image: linear-gradient(rgba(70, 66, 143, 70%), rgba(20, 16, 106, 70%)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-image: linear-gradient(#46428fb3, #14106ab3), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
   background-size: cover;
 }
 
