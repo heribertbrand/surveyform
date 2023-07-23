@@ -7,12 +7,12 @@
 body {
   margin: auto;
   padding: 0;
-  background-image: linear-gradient(rgba(69, 65, 142, 70%), rgba(20, 16, 106, 70%)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-image: linear-gradient(#45418eb3, #14106ab3), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
   background-size: cover;
 }
 
 .main-container {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,7 +253,7 @@ body {
 
 .textarea {
   height: 20vh;
-  width: 5wv;
+  width: 50vw;
   font-size: 17px;
   margin-bottom: 30px;
   padding: 10px;
