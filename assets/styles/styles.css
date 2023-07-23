@@ -7,11 +7,12 @@
 body {
   margin: auto;
   padding: 0;
-  background-image: linear-gradient(rgba(69, 65, 142, 0.7), rgba(20, 16, 106, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-image: linear-gradient(rgba(69, 65, 142, 70%), rgba(20, 16, 106, 70%)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
 }
 
 .main-container {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +44,7 @@ body {
 }
 
 .container {
-  background-color: rgba(5, 7, 28, 0.7);
+  background-color: rgba(5, 7, 28, 70%);
   display: flex;
   align-items: left;
   justify-content: left;
@@ -52,7 +53,7 @@ body {
   padding: 40px;
 }
 
-.mainCred {
+.maincred {
   display: flex;
   align-items: left;
   justify-content: left;
@@ -78,7 +79,7 @@ body {
 
 .credentials input {
   height: 6vh;
-  width: 5ovw;
+  width: 50vw;
   border-radius: 3px;
   border: none;
   padding: 10px;
@@ -252,12 +253,11 @@ body {
 
 .textarea {
   height: 20vh;
-  width: 5wh;
+  width: 5wv;
   font-size: 17px;
   margin-bottom: 30px;
   padding: 10px;
 }
-
 
 #submit {
   display: flex;
