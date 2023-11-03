@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  background-image: linear-gradient(#534eb4b3, #6752c5b3), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-size: cover;
+  background-position: top;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Poppins, sans-serif;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.hedda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 100;
+  width: 50vw;
+  margin: 0 auto;
+  gap: 0.5rem;
+  padding: 40px;
+}
+
+.titl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  min-inline-size: 12px;
+  width: 100%;
+}
+
+.p-tag p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 19px;
+  min-inline-size: 14px;
+}
+
+.form-doc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 50vw;
+  margin: 0 auto;
+  background-color: #05071cb3;
+  color: #fff;
+  padding: 40px;
+  border: 1px solid #05071cb3;
+  border-radius: 5px;
+}
+
+.form-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.sec1 {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 2.3rem;
+  margin: 0 auto;
+}
+
+.sec1 p {
+  font-size: 18px;
+}
+
+.inputs {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+
+.inputt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputt input {
+  width: 44.5vw;
+  padding: 14px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.drop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  font-size: 21px;
+}
+
+.drop-down {
+  width: 44.5vw;
+  padding: 14px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #000000ba;
+}
+
+.sec2 {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.rad {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5rem;
+  width: 44.5vw;
+  padding: 14px 5px;
+  font-size: 18px;
+}
+
+.rad input {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 20px;
+  height: 20px;
+}
+
+.sec4 {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.sec4 p {
+  font-size: 21px;
+}
+
+.list {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: row;
+  gap: 0.8rem;
+  width: 44.5vw;
+  padding: 14px 5px;
+}
+
+.list input {
+  width: 20px;
+}
+
+.list p {
+  font-size: 17.5px;
+}
+
+.sec5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.sec5 p {
+  font-size: 22px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  margin: 0 auto;
+}
+
+.textarea {
+  max-width: 44.5vw;
+  min-width: 44.5vw;
+  min-height: 20vh;
+  max-height: 80vh;
+  padding: 14px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.butt {
+  width: 44.5vw;
+  padding: 12px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #52c752d6;
+  border: 1px solid #52c752d6;
+  border-radius: 1px;
+}
